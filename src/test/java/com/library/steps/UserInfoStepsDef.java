@@ -10,7 +10,12 @@ public class UserInfoStepsDef {
     String actualResult;
     @Given("Establish the database connection")
     public void establish_the_database_connection() {
-        DB_Util.createConnection();
+
+        System.out.println("*****************************");
+        //DB_Util.createConnection(); -> we will manage it via Hooks
+        System.out.println("CONNECTION IS HANDLED VIA HOOKS");
+        System.out.println("*****************************");
+
     }
 
     @When("Execute query to get all IDs from users")
