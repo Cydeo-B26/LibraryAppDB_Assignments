@@ -1,4 +1,4 @@
-
+@us02
 Feature: As a librarian, I want to know borrowed books number
 
   Scenario: verify the total amount of borrowed books
