@@ -20,4 +20,7 @@ select bc.name,count(*) from book_borrow bb
 group by bc.name
 order by 2 desc;
 
+select name, author, isbn from books
+where name = 'Head First Java';
+
 
